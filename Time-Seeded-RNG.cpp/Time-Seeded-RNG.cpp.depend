@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1776967294 source:c:\users\dell\documents\githup\first-year-of-university\time-seeded-rng.cpp\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+
