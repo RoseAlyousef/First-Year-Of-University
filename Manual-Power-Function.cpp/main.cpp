@@ -1,9 +1,20 @@
 #include <iostream>
+using namespace std;ً
+void calculatePower(int x, int y) {
+    int result = 1;
+    for (int i = 1; i <= y; i++) {
+        result *= x;
+    }
+    cout << x << "^" << y << " = " << result << endl;
+}
 
-using namespace std;
+int main() {
+    int base, exponent;
+    cout << "Enter base: ";
+    cin >> base;
+    cout << "Enter exponent: ";
+    cin >> exponent;
+    calculatePower(base, exponent);
 
-int main()
-{
-    cout << "Hello world!" << endl;
     return 0;
 }
